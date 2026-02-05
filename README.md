@@ -1,6 +1,22 @@
-# Guide
+# Image Search App – TypeScript Fundamentals HW-2
 
-If you want to run a quick check locally, set `VITE_PIXABAY_API_KEY` (either in a `.env` file or your environment) before running the dev server.
+Навчальний проєкт — вебзастосунок для пошуку зображень за допомогою Pixabay API, повністю типізований на TypeScript.
+
+Метою роботи було додати строгі типи до вже готового JavaScript-додатка без зміни його бізнес-логіки.
+
+---
+
+## Запуск проєкту
+
+Для коректної роботи застосунку необхідно вказати власний ключ доступу до Pixabay API.
+
+### Налаштування середовища
+
+Створити у корені проєкту файл `.env` і додати у нього рядок: VITE*PIXABAY_API_KEY=ваш_api*ключ
+
+Після цього виконати:
+npm install
+npm run dev
 
 ## HTML expectations
 
